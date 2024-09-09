@@ -30,4 +30,4 @@ RUN find requirements/ -type f -name "*.txt" -exec pip3.11 install --no-cache-di
 ENV PATH="${PATH}:/home/notebook-user/.local/bin"
 ENV TESSDATA_PREFIX=/usr/local/share/tessdata
 
-CMD ["uvicorn", "api.app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "api.app:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

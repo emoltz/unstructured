@@ -18,3 +18,4 @@ dependencies:
     - uvicorn
     - huggingface-hub
     - layoutparser
+    - black

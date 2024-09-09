@@ -14,5 +14,7 @@ dependencies:
   - torchvision
   - pip
   - pip:
+    - fastapi
+    - uvicorn
     - huggingface-hub
     - layoutparser

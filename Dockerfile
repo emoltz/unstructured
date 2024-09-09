@@ -1,3 +1,7 @@
+# Remember to bind the ports! e.g.:
+    # docker run -d -p 8000:8000 unstructured-fastapi
+
+
 FROM quay.io/unstructured-io/base-images:wolfi-base-latest as base
 
 USER root
